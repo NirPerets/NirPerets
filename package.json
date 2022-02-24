@@ -2,7 +2,7 @@
   "name": "nir-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nirperets.github.io",
+  "homepage": "https://nirperets.github.io/NirPerets/",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^5.14.1",
