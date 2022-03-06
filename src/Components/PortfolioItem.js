@@ -28,8 +28,6 @@ class PortfolioItem extends Component {
                     <div className="overlay"></div>
                 </a>
             </div>
-
-
             </>
         )
     }
