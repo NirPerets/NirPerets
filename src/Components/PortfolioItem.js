@@ -20,13 +20,13 @@ class PortfolioItem extends Component {
         return(
             <>
             <div className="portfolio-item-container">
-                <div className="portfolio-item" style={{ backgroundImage: this.state.backgroundImage }} onClick={(e) => this.props.changeSelectedProject(this.props.index)}>
+                <a href={ this.props.url } target="_blank" className="portfolio-item" style={{ backgroundImage: this.state.backgroundImage }} onClick={(e) => this.props.changeSelectedProject(this.props.index)}>
                     <div className="text">
                         <h1>{ this.props.name }</h1>
                         <p>{ this.props.category }</p>
                     </div>
                     <div className="overlay"></div>
-                </div>
+                </a>
             </div>
 
 

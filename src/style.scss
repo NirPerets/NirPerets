@@ -413,7 +413,7 @@ a {
         .overlay {
             width: 100%;
             height: 100%;
-            background: rgba(0,0,0,.3);
+            background: rgba(0,0,0,.6);
             position: absolute;
             z-index: 2;
         }
@@ -919,9 +919,25 @@ $google: 100%;
         .text-side, .skill-bars-container {width: 100%; padding: 0;}
         .skill-bars-container {margin-top: 20px;}
     }
+
+    .portfolio-modal {
+        display: block;
+        margin-right: auto;
+        width: 80%;
+        height: auto;
+        .image {width: 100%;}
+    }
 }
 
 @media (max-width: 767px) {
+    .portfolio-container .portfolio-grid {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .portfolio-container .portfolio-grid .portfolio-item {
+        height: 40vh;
+    }
+
     .contact-container {
         padding-bottom: 55px;
         padding-top: 8px;
@@ -948,9 +964,18 @@ $google: 100%;
 
     .contact-container p {font-size: 16px; padding: 10px;}
     .contact-container .right .map-postion {
-        top: 3.5%;
-        left: 52.3%;
+        top: 23.5%;
+        left: 52%;
+        padding: 0;
+
+        p {
+            font-size: 14px;
+        }
     }
+
+    .cv .text-side .small-title::after {top: 70px;}
+    .cv .text-side .small-title {margin-bottom: 30px;}
+    .contact-container .small-title::after {top: 75px;}
 
     .hero {
         height: auto;
@@ -958,7 +983,7 @@ $google: 100%;
     }
 
     .hero .squash-text .line .word h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .subtitle {
@@ -992,4 +1017,12 @@ $google: 100%;
     .hero .squash-text::after, .hero .squash-text::before {
         left: 0;
     }
+
+    .portfolio-container .portfolio-grid .portfolio-item .text {
+        h1 {font-size: 30px;}
+        p {font-size: 18px;}
+    }
+
+    .contact-container .small-title .line .word h1 {font-size: 65px;}
+    .small-title .line .word h1 {font-size: 65px;}
 }
