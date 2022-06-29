@@ -8,31 +8,6 @@ class Portfolio extends Component {
     state = {
         JsProjects: JsProjects,
         ShopifyProjects: ShopifyProjects,
-        SelectedProject: ShopifyProjects[0],
-        showModal: false,
-    }
-
-    closeModal = () => {
-        this.setState({showModal: false})
-    }
-    
-    changeSelectedProject = (i) => {
-        this.setState({
-            SelectedProject : ShopifyProjects[i],
-            showModal: true
-        })
-    }
-
-    swapPlaces = () => {
-        let array = this.state.ShopifyProjects
-        const temp = array[0]
-        array[0] = array[1]
-        array[1] = temp
-
-        this.setState({ShopifyProjects: array})
-    }
-
-    componentDidMount() {
     }
 
     render() {
@@ -48,10 +23,10 @@ class Portfolio extends Component {
                                 return(
                                     <PortfolioItem 
                                     index={index}
-                                    bg={item.thumbnail} 
+                                    bg={item.thumbnail}
+                                    image={item.image} 
                                     name={item.name} 
                                     category={item.category} 
-                                    brief={item.brief} 
                                     url={item.url} 
                                     changeSelectedProject={this.changeSelectedProject}/>
                                 )
@@ -74,23 +49,6 @@ class Portfolio extends Component {
                                 )
                             })
                         }
-                    </div>
-                </div>
-
-                <div className={"portfolio-modal-container " + (this.state.showModal ? 'show' : '')}>
-                    <div className={"portfolio-modal " + (this.state.showModal ? 'show' : '')}>
-                        <div className="close-modal" onClick={this.closeModal}>X</div>
-                        <div className="text">
-                            <h2>{ this.state.SelectedProject.category }</h2>
-                            <h1>{ this.state.SelectedProject.name }</h1>
-                            <p>
-                                { this.state.SelectedProject.brief }
-                            </p>
-                            <a target="_blank" href={this.state.SelectedProject.url}>Visit Project</a>
-                        </div>
-                        <div className="image">
-                            <img src={ this.state.SelectedProject.image } />
-                        </div>
                     </div>
                 </div>
             </>

@@ -1,36 +1,40 @@
-import { Component } from "react";
+import { useState } from "react";
 import handleViewport from 'react-in-viewport'
 
-class PortfolioItem extends Component {
+function PortfolioItem(props) {
+    const [backgroundImage, setBackgroundImage] = useState("url('" + props.bg + "')")
+    const [showModal, setShowModal] = useState(false)
 
-    constructor(props) {
-        super(props)
-    }
-
-    state = {
-        backgroundImage: "url('" + this.props.bg + "')",
-        showModal: false,
-    }
-
-    componentDidMount() {
-        console.log(this.props)
-    }
-
-    render() {
-        return(
-            <>
+    return(
+        <>
             <div className="portfolio-item-container">
-                <div className="portfolio-item" style={{ backgroundImage: this.state.backgroundImage }} onClick={(e) => this.props.changeSelectedProject(this.props.index)}>
+                <div className="portfolio-item" style={{ backgroundImage: backgroundImage }} onClick={() => setShowModal(true)}>
                     <div className="text">
-                        <h1>{ this.props.name }</h1>
-                        <p>{ this.props.category }</p>
+                        <h1>{ props.name }</h1>
+                        <p>{ props.category }</p>
                     </div>
                     <div className="overlay"></div>
                 </div>
             </div>
-            </>
-        )
-    }
+
+            <div className={"portfolio-modal-container " + (showModal ? 'show' : '')}>
+                <div className={"portfolio-modal " + (showModal ? 'show' : '')}>
+                    <div className="close-modal" onClick={() => setShowModal(false)}>X</div>
+                    <div className="text">
+                        <h2>{ props.category }</h2>
+                        <h1>{ props.name }</h1>
+                        <p>
+                            { props.brief }
+                        </p>
+                        <a target="_blank" href={props.url}>Visit Project</a>
+                    </div>
+                    <div className="image">
+                        <img src={ props.image } />
+                    </div>
+                </div>
+            </div>
+        </>
+    )
 }
 
 export default PortfolioItem
