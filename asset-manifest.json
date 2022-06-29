@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/NirPerets/static/css/main.c675bbf3.chunk.css",
-    "main.js": "/NirPerets/static/js/main.2a65a4ec.chunk.js",
-    "main.js.map": "/NirPerets/static/js/main.2a65a4ec.chunk.js.map",
-    "runtime-main.js": "/NirPerets/static/js/runtime-main.d19be406.js",
-    "runtime-main.js.map": "/NirPerets/static/js/runtime-main.d19be406.js.map",
-    "static/js/2.16e98e06.chunk.js": "/NirPerets/static/js/2.16e98e06.chunk.js",
-    "static/js/2.16e98e06.chunk.js.map": "/NirPerets/static/js/2.16e98e06.chunk.js.map",
-    "static/js/3.8f3d57fe.chunk.js": "/NirPerets/static/js/3.8f3d57fe.chunk.js",
-    "static/js/3.8f3d57fe.chunk.js.map": "/NirPerets/static/js/3.8f3d57fe.chunk.js.map",
+    "main.js": "/NirPerets/static/js/main.46ac7862.chunk.js",
+    "main.js.map": "/NirPerets/static/js/main.46ac7862.chunk.js.map",
+    "runtime-main.js": "/NirPerets/static/js/runtime-main.ba5c12da.js",
+    "runtime-main.js.map": "/NirPerets/static/js/runtime-main.ba5c12da.js.map",
+    "static/js/2.0ddcc813.chunk.js": "/NirPerets/static/js/2.0ddcc813.chunk.js",
+    "static/js/2.0ddcc813.chunk.js.map": "/NirPerets/static/js/2.0ddcc813.chunk.js.map",
+    "static/js/3.dbb9e0b5.chunk.js": "/NirPerets/static/js/3.dbb9e0b5.chunk.js",
+    "static/js/3.dbb9e0b5.chunk.js.map": "/NirPerets/static/js/3.dbb9e0b5.chunk.js.map",
     "index.html": "/NirPerets/index.html",
     "static/css/main.c675bbf3.chunk.css.map": "/NirPerets/static/css/main.c675bbf3.chunk.css.map",
-    "static/js/2.16e98e06.chunk.js.LICENSE.txt": "/NirPerets/static/js/2.16e98e06.chunk.js.LICENSE.txt",
+    "static/js/2.0ddcc813.chunk.js.LICENSE.txt": "/NirPerets/static/js/2.0ddcc813.chunk.js.LICENSE.txt",
     "static/media/AsafixThumbnail.5b6c2978.png": "/NirPerets/static/media/AsafixThumbnail.5b6c2978.png",
     "static/media/AutoModedThumbnail.b58e7995.png": "/NirPerets/static/media/AutoModedThumbnail.b58e7995.png",
     "static/media/FogelThumbnail.92052f8d.png": "/NirPerets/static/media/FogelThumbnail.92052f8d.png",
@@ -35,9 +35,9 @@
     "static/media/zeuze.2c0c221e.png": "/NirPerets/static/media/zeuze.2c0c221e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d19be406.js",
-    "static/js/2.16e98e06.chunk.js",
+    "static/js/runtime-main.ba5c12da.js",
+    "static/js/2.0ddcc813.chunk.js",
     "static/css/main.c675bbf3.chunk.css",
-    "static/js/main.2a65a4ec.chunk.js"
+    "static/js/main.46ac7862.chunk.js"
   ]
 }
