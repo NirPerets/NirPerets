@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/NirPerets/static/css/main.77d705ea.chunk.css",
+    "main.js": "/NirPerets/static/js/main.20b55063.chunk.js",
+    "main.js.map": "/NirPerets/static/js/main.20b55063.chunk.js.map",
+    "runtime-main.js": "/NirPerets/static/js/runtime-main.ba5c12da.js",
+    "runtime-main.js.map": "/NirPerets/static/js/runtime-main.ba5c12da.js.map",
+    "static/js/2.0ddcc813.chunk.js": "/NirPerets/static/js/2.0ddcc813.chunk.js",
+    "static/js/2.0ddcc813.chunk.js.map": "/NirPerets/static/js/2.0ddcc813.chunk.js.map",
+    "static/js/3.dbb9e0b5.chunk.js": "/NirPerets/static/js/3.dbb9e0b5.chunk.js",
+    "static/js/3.dbb9e0b5.chunk.js.map": "/NirPerets/static/js/3.dbb9e0b5.chunk.js.map",
+    "index.html": "/NirPerets/index.html",
+    "static/css/main.77d705ea.chunk.css.map": "/NirPerets/static/css/main.77d705ea.chunk.css.map",
+    "static/js/2.0ddcc813.chunk.js.LICENSE.txt": "/NirPerets/static/js/2.0ddcc813.chunk.js.LICENSE.txt",
+    "static/media/AsafixThumbnail.5b6c2978.png": "/NirPerets/static/media/AsafixThumbnail.5b6c2978.png",
+    "static/media/AutoModedThumbnail.b58e7995.png": "/NirPerets/static/media/AutoModedThumbnail.b58e7995.png",
+    "static/media/FogelThumbnail.92052f8d.png": "/NirPerets/static/media/FogelThumbnail.92052f8d.png",
+    "static/media/Nir_Perets_FrontEnd_CV.e1beebcb.pdf": "/NirPerets/static/media/Nir_Perets_FrontEnd_CV.e1beebcb.pdf",
+    "static/media/ZeuzeThumbnail.6da51a73.png": "/NirPerets/static/media/ZeuzeThumbnail.6da51a73.png",
+    "static/media/asafix.12094436.png": "/NirPerets/static/media/asafix.12094436.png",
+    "static/media/asos1.0b6dd4ff.png": "/NirPerets/static/media/asos1.0b6dd4ff.png",
+    "static/media/asos2.d3f1603e.png": "/NirPerets/static/media/asos2.d3f1603e.png",
+    "static/media/automoded.e409bba0.png": "/NirPerets/static/media/automoded.e409bba0.png",
+    "static/media/style.scss": "/NirPerets/static/media/map.813de160.png",
+    "static/media/eCommerce1.0ca4ada3.png": "/NirPerets/static/media/eCommerce1.0ca4ada3.png",
+    "static/media/ecommeceFull.02e5de6b.png": "/NirPerets/static/media/ecommeceFull.02e5de6b.png",
+    "static/media/fogel.740731a7.png": "/NirPerets/static/media/fogel.740731a7.png",
+    "static/media/resume-builder.983bde6e.png": "/NirPerets/static/media/resume-builder.983bde6e.png",
+    "static/media/tln.eee214e2.png": "/NirPerets/static/media/tln.eee214e2.png",
+    "static/media/tlnThumbnail.538971b6.png": "/NirPerets/static/media/tlnThumbnail.538971b6.png",
+    "static/media/tsy.759b3c18.png": "/NirPerets/static/media/tsy.759b3c18.png",
+    "static/media/tsyThumbnail.0b12c96c.png": "/NirPerets/static/media/tsyThumbnail.0b12c96c.png",
+    "static/media/yahav2.46025df7.png": "/NirPerets/static/media/yahav2.46025df7.png",
+    "static/media/yahavmain.a2ef2479.png": "/NirPerets/static/media/yahavmain.a2ef2479.png",
+    "static/media/zeuze.2c0c221e.png": "/NirPerets/static/media/zeuze.2c0c221e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba5c12da.js",
+    "static/js/2.0ddcc813.chunk.js",
+    "static/css/main.77d705ea.chunk.css",
+    "static/js/main.20b55063.chunk.js"
+  ]
+}
