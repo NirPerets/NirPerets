@@ -523,7 +523,6 @@ a {
     }
 
     .text {
-        text-align: center;
         padding: 30px;
 
         h2 {
@@ -539,11 +538,12 @@ a {
         a {
             color: #000;
             background: $nSecondColor;
-            padding: 10px 30px;
-            font-size: 2rem;
+            padding: 5px 20px;
+            font-size: 1.6rem;
             font-weight: bold;
             border: 2px solid $nSecondColor;
             transition: 0.2s all ease;
+            margin-top: 15px;
 
             &:hover {
                 background: transparent;
@@ -702,8 +702,8 @@ $google: 100%;
             color: #ffffff;
             font-family: 'Assistant';
             position: absolute;
-            top:25%;
-            left: 52.5%;
+            top:26.5%;
+            left: 51%;
             padding: 20px;
             font-weight: 300;
             transition: 0.3s all ease;
@@ -910,8 +910,8 @@ $google: 100%;
             height: 350px;
             margin: 20px 0;
             .map-postion {
-                top: 10.5%;
-                left: 51.3%;
+                top: 14.5%;
+                left: 50.6%;
             }
         }
     }
@@ -967,8 +967,8 @@ $google: 100%;
 
     .contact-container p {font-size: 16px; padding: 10px;}
     .contact-container .right .map-postion {
-        top: 23.5%;
-        left: 52%;
+        top: 27.5%;
+        left: 50.6%;
         padding: 0;
 
         p {
@@ -1053,4 +1053,13 @@ $google: 100%;
     .small-title .line .word {margin-right: 10px;}
     .small-title .line {flex-wrap: wrap;}
     .hero .squash-text .line {flex-wrap: wrap;}
+}
+
+.project-brief {
+    text-align: left;
+    margin-bottom: 25px;
+
+    div {
+        margin-bottom: 15px;
+    }
 }

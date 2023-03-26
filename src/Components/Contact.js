@@ -115,7 +115,7 @@ class Contact extends Component {
                         <div class="map-postion">
                             <p>
                                 Nir Perets,<br/>
-                                North Israel, Maalot<br/>
+                                Israel, Herzliya<br/>
                                 <span>@</span>: peretsweb@gmail.com
                             </p>
                         </div>

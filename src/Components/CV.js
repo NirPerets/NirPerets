@@ -9,21 +9,15 @@ class CV extends Component {
                 <div className="text-side">
                     <SmallTitle sentence="My Skills" />
                     <p>
-                    t is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                    as opposed to using 'Content here, content here',
-                    making it look like readable English.<br/><br/>
-                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
-                    and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
-                    Various versions have evolved over the years, sometimes by accident,
-                    sometimes on purpose (injected humour and the like). <br/><br/>
+                    Full Stack developer (Frontend oriented) .
+                    I possess a strong technical skill set that includes expertise in React, Node.js, and AWS.
+                    I'm proficient in css and use Styled Components to create visually stunning and responsive user interfaces..<br/><br/>
+        
+                    Whether working with startups or established companies, I always strive to deliver high-quality,
+                    user-friendly applications that meet and exceed expectations.<br/><br/>
 
-                    t is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                    as opposed to using 'Content here, content here',
-                    making it look like readable English.
+                    Overall, I'm passionate about staying up-to-date with the latest developments in full stack 
+                    development and related technologies, and continuously seek out new challenges and opportunities to grow my skill set
                     </p>
                 </div>
                 <div className="skill-bars-container">

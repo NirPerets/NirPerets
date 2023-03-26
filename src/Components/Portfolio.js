@@ -27,6 +27,7 @@ class Portfolio extends Component {
                                     image={item.image} 
                                     name={item.name} 
                                     category={item.category} 
+                                    brief={item.brief}
                                     url={item.url} 
                                     changeSelectedProject={this.changeSelectedProject}/>
                                 )
